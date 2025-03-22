@@ -80,18 +80,21 @@ export default function Lsir() {
                 better choice for your business.
               </span>
             </div>
+          </Link>{" "}
+          <Link to="/Ten-Practical-Ways-for-Restaurants-to-Tackle-Wastage-in-2023">
+            <div className="box">
+              <div className="Inner-box"></div>
+              <span style={styles.black}>
+                5. Ten Practical Ways for Restaurants to Tackle Wastage in 2023
+              </span>{" "}
+              <br />
+              <span style={styles.green}>
+                Get tips on how to smoothly integrate restaurant billing
+                software into your operations, train your staff, and avoid
+                common pitfalls.
+              </span>
+            </div>
           </Link>
-          <div className="box">
-            <div className="Inner-box"></div>
-            <span style={styles.black}>
-              5. How to Implement Restaurant Billing Software Successfully
-            </span>{" "}
-            <br />
-            <span style={styles.green}>
-              Get tips on how to smoothly integrate restaurant billing software
-              into your operations, train your staff, and avoid common pitfalls.
-            </span>
-          </div>
           <div className="box">
             <div className="Inner-box"></div>
             <span style={styles.black}>

@@ -6,7 +6,9 @@ import Slider3 from "./slider";
 import Phone from "./phonenumber";
 import Footor from "./uae-presents";
 import Outlets from "./outlets";
+import logo from "../Billingko.jpg";
 import Hedar from "./navaigationbar";
+import Foot from "./footor";
 import Aboutus from "./aboutus";
 import Specaility from "./specaility";
 function OutletManagementPage() {
@@ -27,6 +29,7 @@ function OutletManagementPage() {
           name="description"
           content={`billingko is the ultimate Restaurant Management Software, offering a comprehensive suite of features including hassle-free billing, efficient inventory management, streamlined vendor management, and easy reporting. With GST enabled, it provides a one-stop solution for all types of restaurant businesses. Experience the power of billingko and download our restaurant billing software today for a seamless and efficient operation of your restaurant.`}
         />
+        <link rel="icon" type="image/png" href={logo} />
       </Helmet>
       <Hedar />
       <section className="display-flex  " style={{ position: "relative" }}>
@@ -176,13 +179,7 @@ function OutletManagementPage() {
         {" "}
         <Footor />
       </section>
-      <footer className="foot">
-        <p>
-          <a href="/privacy">Privacy Policy</a>
-          &nbsp;&nbsp;|&nbsp;&nbsp; &copy;{currentYear} Billingko All Rights
-          Reserved
-        </p>
-      </footer>
+      <Foot />
     </>
   );
 }

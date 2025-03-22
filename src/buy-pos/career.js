@@ -17,7 +17,10 @@ export default function Career() {
   return (
     <>
       <Helmet>
-        <title>Career Opportunities - Billingko</title>
+        <title>
+          Career Opportunities - Billingko | We are currently hiring for
+          React.js, Node.js, and Testing roles.
+        </title>
         <meta
           name="description"
           content="Join our team and explore exciting career opportunities in React.js, Node.js, and Software Testing roles. Apply now and be a part of our innovative projects!"

@@ -2,6 +2,7 @@ import React from "react";
 import { ReactComponent as SEARCH } from "../Icons/SEARCH.svg";
 import Lsir from "./table_list";
 import { Helmet } from "react-helmet";
+import logo from "../Billingko.jpg";
 import Footor from "../buy-pos/ourpresents";
 
 export default function pageOne() {
@@ -9,6 +10,7 @@ export default function pageOne() {
     <>
       <div className="card">
         <Helmet>
+          <link rel="icon" type="image/png" href={logo} />
           <title>
             Why You Should Consider Restaurant POS System - Benefits and
             Features

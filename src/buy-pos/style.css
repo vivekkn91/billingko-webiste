@@ -357,6 +357,15 @@ img.android {
 .aboutback {
   background: #ffffff;
 }
+.intro-text.width-60.zindex {
+  z-index: 1;
+}
+.width-40.zindex {
+  z-index: 1;
+}
+.navigation-menu {
+  z-index: 2;
+}
 
 #about .content p {
   text-align: justify;
@@ -808,9 +817,9 @@ a.btn-get-started.scrollto {
   height: 100%;
   z-index: -1;
 }
-.zindex {
+/* .zindex {
   z-index: 998;
-}
+} */
 h1,
 h2,
 h3 {
@@ -887,7 +896,94 @@ h3 {
   margin: auto;
   color: #000 !important;
 }
+
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.whatsapp-icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.whatsapp-icon:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.margin-2 {
+  margin: 2%;
+}
+.width-70 {
+  width: 70%;
+}
+.strech {
+  align-items: stretch;
+}
+.userinfo {
+  background-color: #2aa51d;
+}
+.width-30 {
+  padding: auto;
+  width: 30%;
+}
+.user-info-container {
+  color: #ffffff;
+  text-align: center;
+}
+
+.user-image {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.sidesocail {
+  background: black;
+  padding: 7%;
+}
+
+.rounded-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.buttongreen {
+  padding: 1%;
+  background-color: #2aa51d;
+  width: 170px;
+  color: white;
+  font-size: 17px;
+  border: none;
+}
+/* Add any other necessary styling for the user-info-container, user-name, user-position, and user-social-links */
+.button-link {
+  cursor: pointer;
+}
+
+.button-link:hover button {
+  cursor: pointer;
+  cursor: grabbing;
+}
 @media (max-width: 768px) {
+  .width-70 {
+    width: 100%;
+    padding: 2%;
+  }
+  .width-30 {
+    padding: auto;
+    width: 100%;
+  }
+  .margin-2 {
+    margin: 0%;
+  }
   .overlay {
     display: none;
     background-color: rgb(0 0 0 / 0%) !important;
@@ -953,6 +1049,16 @@ h3 {
   }
 }
 @media only screen and (max-width: 767px) {
+  .width-60 {
+    width: 100%;
+    text-align: center;
+  }
+  .width-29 {
+    margin: auto;
+    width: 29%;
+    display: none;
+    padding: 5%;
+  }
   .padit {
     padding-left: 5%;
   }
@@ -1001,6 +1107,7 @@ h3 {
     position: relative;
     left: -12%;
   }
+
   #intro .intro-text {
     top: 280px;
   }

@@ -8,6 +8,7 @@ import Footor from "./ourpresents";
 import { Link } from "react-router-dom";
 import Slider3 from "./slider";
 import logo from "../Billingko.jpg";
+import Foot from "./footor";
 import Phone from "./phonenumber";
 import Outlets from "./outlets";
 import Aboutus from "./aboutus";
@@ -164,13 +165,7 @@ function LocationMessage() {
         {" "}
         <Footor />
       </section>
-      <footer className="foot">
-        <p>
-          <a href="/privacy">Privacy Policy</a>
-          &nbsp;&nbsp;|&nbsp;&nbsp; &copy;{currentYear} Billingko All Rights
-          Reserved
-        </p>
-      </footer>
+      <Foot />
     </>
   );
 }

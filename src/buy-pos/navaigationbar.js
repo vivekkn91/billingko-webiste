@@ -17,9 +17,9 @@ const Navmenu = () => {
 
   return (
     <nav className={`navigation ${isMenuOpen ? "open" : ""}`}>
-      <div className="navigation-logo">
+      <a href="/" className="navigation-logo">
         <img src={db} alt="billingko Logo" />
-      </div>
+      </a>
       <div className={`navigation-menu ${isMenuOpen ? "open" : ""}`}>
         <ul>
           <Link to="/">
@@ -28,36 +28,39 @@ const Navmenu = () => {
           <Link to="/about">
             <li>About us</li>
           </Link>
-          <Link to="/">
-            <li>
-              Our Products
-              <ul className="sub-menu">
-                <Link to="/restaurant-management-system-for-Dine-in">
-                  <li>Dine in</li>
-                </Link>
-                <Link to="/restaurant-management-system-for-QSR">
-                  <li>QSR</li>
-                </Link>
-                <Link to="/restaurant-management-system-for-Bakeries">
-                  <li>Bakeries</li>
-                </Link>
-                <Link to="/restaurant-management-system-for-Cloud-Kitchens">
-                  <li>Cloud Kitchens</li>
-                </Link>
-                <Link to="/restaurant-management-system-for-Food-Trucks">
-                  <li>Food Trucks</li>
-                </Link>
-              </ul>
-            </li>
-          </Link>
-          <Link to="/blogs">
+
+          <li>
+            Our Products
+            <ul className="sub-menu">
+              <Link to="/restaurant-management-system-for-Dine-in">
+                <li>Dine in</li>
+              </Link>
+              <Link to="/restaurant-management-system-for-QSR">
+                <li>QSR</li>
+              </Link>
+              <Link to="/restaurant-management-system-for-Bakeries">
+                <li>Bakeries</li>
+              </Link>
+              <Link to="/restaurant-management-system-for-Cloud-Kitchens">
+                <li>Cloud Kitchens</li>
+              </Link>
+              <Link to="/restaurant-management-system-for-Food-Trucks">
+                <li>Food Trucks</li>
+              </Link>
+              <Link to="/coffeeshop-cafe">
+                <li>Cafe /coffee shop</li>
+              </Link>
+            </ul>
+          </li>
+
+          <Link to="/team">
             <li>Our Team</li>
           </Link>
           <Link to="/career">
             <li>Career</li>
           </Link>
-          <Link to="/blogs">
-            <li>Our global presence</li>
+          <Link to="/Free-Menu">
+            <li>Digital Menu</li>
           </Link>
           <Link to="/blogs">
             <li>Blog</li>
@@ -74,6 +77,12 @@ const Navmenu = () => {
         href="https://web.whatsapp.com/send?phone=7558973998"
       >
         Request Demo
+      </a>
+      <a
+        className="request-demo-button  displaynone"
+        href=" https://drive.google.com/file/d/18H22kqzTLoY4QiFNAt8c6Pa4_TmjZQW0/view?usp=sharing"
+      >
+        Download Now
       </a>
 
       <div className="piazza-menu" onClick={handleMenuToggle}>

@@ -9,6 +9,7 @@ import Outlets from "./buy-pos/outlets";
 import Hedar from "./buy-pos/navaigationbar";
 import Payments from "./components/payments";
 import Aboutus from "./buy-pos/aboutus";
+import Foot from "./buy-pos/footor";
 import logo from "./Billingko.jpg";
 import Specaility from "./buy-pos/specaility";
 function OutletManagementPage() {
@@ -165,7 +166,6 @@ function OutletManagementPage() {
       <section>
         <Aboutus />
       </section>
-
       <section>
         <Outlets />
       </section>
@@ -173,22 +173,14 @@ function OutletManagementPage() {
         <h3>Considering Launching a Restaurant?</h3>
         <Phone />
       </section>
-
       <section>
         <Specaility />
       </section>
-
       <section className="footorcolor">
         {" "}
         <Footor />
       </section>
-      <footer className="foot">
-        <p>
-          <a href="/privacy">Privacy Policy</a>
-          &nbsp;&nbsp;|&nbsp;&nbsp; &copy;{currentYear} Billingko All Rights
-          Reserved
-        </p>
-      </footer>
+      <Foot />
     </>
   );
 }

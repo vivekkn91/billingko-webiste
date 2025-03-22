@@ -11,6 +11,10 @@ import LocationMessage from "./buy-pos/buy-pos";
 import About from "./buy-pos/aboutus_page";
 import Career from "./buy-pos/career";
 import Privacy from "./buy-pos/privacy";
+import Wastage from "./buy-pos/blogs/reducewaste";
+import Global from "./buy-pos/globalprecents";
+import Team from "./buy-pos/team";
+import CAfe from "./buy-pos/cafe";
 
 function Navigator() {
   return (
@@ -22,6 +26,9 @@ function Navigator() {
       <Route path="/how-to-use-pos" element={<USepos />} />
       <Route path="/about" element={<About />} />
       <Route path="/career" element={<Career />} />
+      <Route path="/Free-Menu" element={<Global />} />
+      <Route path="/team" element={<Team />} />
+      <Route path="/coffeeshop-cafe" element={<CAfe />} />
       <Route
         path="/Restaurant-Billing-Software-vs-Point-of-Sale-Systems"
         element={<Point />}
@@ -37,6 +44,10 @@ function Navigator() {
       <Route
         path="/restaurant-management-system-for-:outletLabel"
         element={<OutletManagementPage />}
+      />
+      <Route
+        path="/Ten-Practical-Ways-for-Restaurants-to-Tackle-Wastage-in-2023"
+        element={<Wastage />}
       />
     </Routes>
   );

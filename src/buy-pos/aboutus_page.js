@@ -7,7 +7,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
+import logo from "../Billingko.jpg";
 import { Helmet } from "react-helmet";
+
 import Nav from "./navaigationbar";
 import Shop2 from "../components/assets/burger_king_shop.jpg";
 import Shop from "./assets/outlticons/billingko_shop.png";
@@ -24,6 +26,7 @@ export default function aboutus_page() {
           name="description"
           content="Learn about Billingko and our mission to provide high-quality services and products. Connect with us on social media for the latest updates."
         />
+        <link rel="icon" type="image/png" href={logo} />
       </Helmet>
       <Nav />
       <div className="display-flex">
