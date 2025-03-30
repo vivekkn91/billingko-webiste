@@ -9,7 +9,7 @@ export default function privacy() {
         <h1>Privacy Policy for billingko</h1>
 
         <p>
-          At billingko, accessible from https://billingkopos.com, one of our
+          At billingko, accessible from https://billingkopos.com.com, one of our
           main priorities is the privacy of our visitors. This Privacy Policy
           document contains types of information that is collected and recorded
           by billingko and how we use it.

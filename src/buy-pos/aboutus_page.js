@@ -20,14 +20,56 @@ library.add(fab); // Add the font awesome brands icons to the library
 export default function aboutus_page() {
   return (
     <>
-      <Helmet>
-        <title>About - Billingko</title>
-        <meta
-          name="description"
-          content="Learn about Billingko and our mission to provide high-quality services and products. Connect with us on social media for the latest updates."
-        />
-        <link rel="icon" type="image/png" href={logo} />
-      </Helmet>
+     <Helmet>
+  <title>About Billingko - Restaurant Management Software & POS System</title>
+  <meta 
+    name="description" 
+    content="Discover Billingko's mission to revolutionize restaurant management with innovative POS solutions. Learn about our vision, team, and commitment to empowering restaurants with efficient billing & operations software." 
+  />
+  <meta 
+    name="keywords" 
+    content="restaurant management software, POS system, Billingko, restaurant billing software, restaurant technology" 
+  />
+  <link rel="canonical" href="https://billingkopos.com/about" />
+  
+  {/* Open Graph Tags */}
+  <meta property="og:title" content="About Billingko - Restaurant Management Software" />
+  <meta property="og:description" content="Empowering restaurants with innovative POS and management solutions. Learn about Billingko's mission and vision." />
+  <meta property="og:url" content="https://billingkopos.com/about" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content={logo} />
+
+  {/* Twitter Card Tags */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Billingko - Restaurant POS Solutions" />
+  <meta name="twitter:description" content="Empowering restaurants with innovative POS and management solutions. Learn about Billingko's mission and vision." />
+  
+  <link rel="icon" type="image/png" href={logo} />
+
+  {/* Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Billingko",
+        "url": "https://billingkopos.com",
+        "logo": "https://billingkopos.com/Billingko.jpg",
+        "description": "Restaurant management and POS software provider specializing in efficient billing solutions",
+        "sameAs": [
+          "https://www.facebook.com/billingkopos/",
+          "https://www.instagram.com/restaurant_billing_app",
+          "https://twitter.com/BillinkoP65972"
+        ],
+        "brand": {
+          "@type": "Brand",
+          "name": "Billingko",
+          "slogan": "Revolutionizing Restaurant Management"
+        }
+      }
+    `}
+  </script>
+</Helmet>
       <Nav />
       <div className="display-flex">
         <img

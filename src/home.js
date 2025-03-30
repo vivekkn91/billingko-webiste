@@ -17,21 +17,74 @@ function OutletManagementPage() {
 
   return (
     <>
-      <Helmet>
-        {/* <meta
-          name="description"
-          content="billingko is the ultimate Restaurant Management Software in "
-        /> */}
-        <title>
-          Billing Software & Management system For Restaurant | POS | Billingko
-        </title>
+    <Helmet>
+  <title>Restaurant POS & Billing Software | Best Management System | Billingko</title>
+  
+  {/* Primary Meta Tags */}
+  <meta name="description" content="Transform your restaurant operations with Billingko's all-in-one POS & management software. Features: GST billing, inventory tracking, real-time reporting, and cloud backup. Trusted by 2000+ restaurants." />
+  <meta name="keywords" content="restaurant POS, billing software, restaurant management system, GST billing, inventory management, cloud POS" />
+  
+  {/* Open Graph / Facebook */}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://billingkopos.com/" />
+  <meta property="og:title" content="Restaurant POS & Management Software | Billingko" />
+  <meta property="og:description" content="All-in-one restaurant management solution with POS, billing, inventory & reporting. Start your free demo today!" />
+  <meta property="og:image" content={logo} />
 
-        <meta
-          name="description"
-          content={`billingko is the ultimate Restaurant Management Software & POS, offering a comprehensive suite of features including hassle-free billing, efficient inventory management, streamlined vendor management, and easy reporting. With GST enabled, it provides a one-stop solution for all types of restaurant businesses. Experience the power of billingko and download our restaurant billing software today for a seamless and efficient operation of your restaurant.`}
-        />
-        <link rel="icon" type="image/png" href={logo} />
-      </Helmet>
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://billingkopos.com/" />
+  <meta name="twitter:title" content="Restaurant POS & Management Software | Billingko" />
+  <meta name="twitter:description" content="All-in-one restaurant management solution with POS, billing, inventory & reporting. Start your free demo today!" />
+  <meta name="twitter:image" content={logo} />
+
+  {/* Canonical URL */}
+  <link rel="canonical" href="https://billingkopos.com/" />
+  <link rel="icon" type="image/png" href={logo} />
+
+  {/* Additional Meta Tags */}
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Billingko" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {/* Schema Markup */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Billingko POS",
+        "applicationCategory": "Restaurant Management Software",
+        "operatingSystem": "Web-based",
+        "offers": {
+          "@type": "Offer",
+          "price": "Contact for Price",
+          "priceCurrency": "INR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2000"
+        },
+        "featureList": [
+          "GST Billing",
+          "Inventory Management",
+          "Real-time Reporting",
+          "Cloud Backup",
+          "Multi-outlet Support",
+          "Kitchen Order Management"
+        ],
+        "screenshot": "https://billingkopos.com/screenshot.jpg",
+        "softwareVersion": "2024",
+        "provider": {
+          "@type": "Organization",
+          "name": "Billingko",
+          "url": "https://billingkopos.com"
+        }
+      }
+    `}
+  </script>
+</Helmet>
       <Hedar />
       <section className="display-flex  " style={{ position: "relative" }}>
         <video

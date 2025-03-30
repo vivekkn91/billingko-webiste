@@ -11,10 +11,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <TawkMessengerReact
+      {/* <TawkMessengerReact
         propertyId="632ab36c37898912e96a66f8"
         widgetId="1gdfcpo5h"
-      />
+      /> */}
       <Naviagtion />
     </BrowserRouter>
   </React.StrictMode>

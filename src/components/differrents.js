@@ -94,7 +94,7 @@ function pageTwo() {
             provide a seamless payment process that is convenient for customers.
           </p>
 
-          <a href="https://billingko.netlify.app/">
+          <a href="https://billingkopos.com/">
             <div className="restaurantimage">
               <img
                 src={posmachine2}

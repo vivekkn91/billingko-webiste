@@ -53,7 +53,7 @@ function LocationMessage() {
         <div className="intro-text  width-60">
           <h1 className="cure boldtext1">{pageTitle2}</h1>
           <p className="pt">
-            Introducing our all-in-one platform that revolutionizes the way
+            1Introducing our all-in-one platform that revolutionizes the way
             restaurants operate and manage their business. From billing to stock
             management, Captain Ordering App to Kitchen Display Systems,
             customer loyalty programs to an integrated feedback app, and

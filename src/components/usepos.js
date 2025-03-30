@@ -91,7 +91,7 @@ function pageTwo() {
             visually appealing and attract more customers. To add images for
             your food items, follow these steps:
           </p>{" "}
-          <a href="https://billingko.netlify.app/">
+          <a href="https://billingkopos.com/">
             <div className="restaurantimage">
               <img
                 src={posmachine2}
