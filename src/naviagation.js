@@ -15,6 +15,7 @@ import Wastage from "./buy-pos/blogs/reducewaste";
 import Global from "./buy-pos/globalprecents";
 import Team from "./buy-pos/team";
 import CAfe from "./buy-pos/cafe";
+import QuickServiceRestaurant from "./pages/QuickServiceRestaurant";
 
 function Navigator() {
   return (
@@ -48,6 +49,10 @@ function Navigator() {
       <Route
         path="/Ten-Practical-Ways-for-Restaurants-to-Tackle-Wastage-in-2023"
         element={<Wastage />}
+      />
+      <Route
+        path="/restaurant-management-software-for-Quick-Service-Restaurant"
+        element={<QuickServiceRestaurant />}
       />
     </Routes>
   );
